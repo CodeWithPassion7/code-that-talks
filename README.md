@@ -1,23 +1,23 @@
-# 🗣️ Code That Talks
+# 🗣️ code-that-talks
 
-This is a simple Python project that makes your code talk using the `pyttsx3` text-to-speech library.  
-Perfect for beginners who want to explore speech features in Python — no internet required!
+**code-that-talks** is a beginner-friendly Python project that shows how to make your programs speak using the `pyttsx3` text-to-speech engine.
 
----
-
-## 📌 What It Does
-
-- Converts text to speech
-- Uses the `pyttsx3` offline speech engine
-- Shows how to use `say()` and `runAndWait()` in Python
+No internet needed. Just install and run — your Python code will literally talk!
 
 ---
 
-## 🧪 Example Code
+## 🔧 Features
 
-```python
-import pyttsx3
+- 🔊 Convert text to speech using Python
+- ✅ Works completely offline with `pyttsx3`
+- 🧪 Easy-to-understand code for beginners
+- ⚙️ Customizable voice, rate, and volume
 
-engine = pyttsx3.init()
-engine.say("Hello Sumit!")
-engine.runAndWait()
+---
+
+## 📦 Requirements
+
+Make sure you have Python installed. Then install:
+
+```bash
+pip install pyttsx3
